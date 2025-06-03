@@ -45,6 +45,7 @@
 \definecolorpalette{MyColorPalette}{
 	 \definecolor{colorOne}{HTML}{785EF0}
     \definecolor{colorThree}{HTML}{D41159}
+    %\definecolor{colorThree}{HTML}{CC79A7}
      \definecolor{colorTwo}{HTML}{1A85FF}
     %\definecolor{colorThree}{HTML}{FF8533} %{F88251}
 }
@@ -208,10 +209,17 @@ R.~A. Norton, J.~A. Christen, and C.~Fox.
 }
 \note[targetoffsetx=5.5cm,targetoffsety=6.5cm,innersep=.4cm,angle=7,connection,radius=8cm,width=10cm]{Avoid calculating this integral  over high-dimensional latent field $x$.}
 
-\block{Tensor Train Representation of $[\theta|y]$}{\vspace*{-2ex}
+\block{Tensor Train Representation of $[\theta|y]$}{
 \centering
 A surface rendering of a density in TT format \\ TT formula
-\centerline{\includegraphics[]{PosterMargTT.png}}
+\begin{minipage}[b]{0.7\columnwidth}
+	\begin{flushleft} \input{TTSchem.pdf_tex}\end{flushleft}
+\end{minipage} \hfill %\hspace{1cm}
+\begin{minipage}[b]{0.3\columnwidth}
+			\vspace{-5cm}
+		\begin{flushright} \includegraphics[]{PosterMargTT.png}\end{flushright}
+%\centering \includegraphics[]{PosterMargTT.png}
+\end{minipage}	
 %After computing the coefficient tensors $\bm{B}_{\text{pre}, k+1}$ as in Prop.~\ref{prob:ForMarg} and $\bm{B}_{k+1}$ from Prop.~\ref{prob:backMarg}, the marginal PDF of $k$-th dimension can be expressed as
 \resizebox{.45\columnwidth}{!}{
 $f_{X_k}(x_k) = \frac{1}{z} \left(\gamma^{\prime} \prod_{i=1}^{k-1} \lambda_i(X_i) \prod_{i=k+1}^{d} \lambda_i(X_i) + \sum_{l_{k-1}=1}^{r_{k-1}} \sum_{l_k=1}^{r_k} \left(\sum_{i=1}^{n} \phi^{(i)}_k(x_k) \bm{D}_k[l_{k-1},i, l_k] \right)^2 \right) \lambda_k(x_k)$}
@@ -289,7 +297,8 @@ C.~Fox and R.~A. Norton.
 	\centering
 
 	\begin{minipage}[b]{0.45\linewidth}
-		\centerline{\input{LIMBPoster.pdf_tex}}
+
+	\input{LIMBPoster.pdf_tex}
 		\resizebox{\columnwidth}{!}{
 		$y_j =   \int_{\Gamma_j}  B(\nu,T) k(\nu, T)   \frac{p(T)}{k_{\text{B}} T(r)}  x(r)  \tau(r) \text{d}r + \eta_j \,$}\\
 		\resizebox{0.9\columnwidth}{!}{
@@ -297,50 +306,50 @@ C.~Fox and R.~A. Norton.
 	\\
 		\resizebox{0.9\columnwidth}{!}{
 	$\bm{y} = \bm{M} \bm{A} \bm{x} + \bm{\eta} $ }
-
+\vspace{1cm}
 \end{minipage}\hfill
 \begin{minipage}[b]{0.54\linewidth}
 		\begin{tikzpicture}
 		\node[roundnode2] at (-4.5,6.5) (Q)     {$\bm{Q}$};
 		\node[roundnode2] at (-3,4) (x)     {$\bm{x}$};
-		%\node[align=center] at (-1,4) (A)    {$\bm{A}(\bm{x},\bm{p},\bm{T})$};
+		\node[align=center] at (3,1) (A)    {$\bm{A}(\bm{x},\bm{p},\bm{T})$};
 		\node[roundnode2] at (-1,1) (u)    {$\bm{\Omega}$};
 		\node[rectnode] at (-1,-2) (y)    {$\bm{y}$};
 		\node[roundnode2] at (-5,-2) (e)    {$\bm{\eta}$};
-		\node[roundnode2] at (-6.75,6.5) (S)    {$\bm{\Sigma}$};
-		\node[roundnode2] at (-8.5,9) (s)    {$\gamma$};
-		\node[roundnode2] at (-6.25,9) (d)    {$\delta$};
+		\node[roundnode2] at (-7,6.5) (S)    {$\bm{\Sigma}$};
+		\node[roundnode2] at (-8.5,10) (s)    {$\gamma$};
+		\node[roundnode2] at (-6.25,10) (d)    {$\delta$};
 		\node[roundnode2] at (3,6.5) (t)     {$\bm{T}$};
 		\node[roundnode2] at (-1,6.5) (p)     {$\bm{p}$};
 		\node[roundnode2] at (1,4) (pt)     {$\bm{p}/\bm{T}$};
-		\node[roundnode2] at (1,9) (b1)    {$b$};
+		\node[roundnode2] at (1,10) (b1)    {$b$};
 		%\node[roundnode2] at (1,8) (b2)    {$b_2$};
-		\node[roundnode2] at (-3.75,9) (h1)    {$h_{0}$};
-		\node[roundnode2] at (-1.25,9) (p0)    {$p_0$};
-		\node[roundnode2] at (3.5,9) (ht)    {$\bm{h}$};
-		\node[roundnode2] at (5.75,9) (ct)    {$T_0$};
-		\node[roundnode2] at (8,9) (at)    {$\bm{a}$};
+		\node[roundnode2] at (-3.75,10) (h1)    {$h_{0}$};
+		\node[roundnode2] at (-1.25,10) (p0)    {$p_0$};
+		\node[roundnode2] at (3.5,10) (ht)    {$\bm{h}$};
+		\node[roundnode2] at (5.75,10) (ct)    {$T_0$};
+		\node[roundnode2] at (8,10) (at)    {$\bm{a}$};
 		
 		%Lines
-		\draw[->, very thick] (S.south east) -- (e.north west);
-		\draw[->, mydotted, very thick] (s.south east) -- (S.north west);
+		\draw[->, very thick] (S.south) -- (e.north);
+		\draw[->, mydotted, very thick] (s.south) -- (S.north west);
 		\draw[->, very thick] (u.south) -- (y.north);
 		%\draw[->, mydotted, very thick] (A.south) -- (u.north);
-		\draw[->, mydotted,  very thick] (x.south east) -- (u.west);
-		\draw[->, mydotted, very thick] (p.south east) -- (pt.north west);
-		\draw[->, mydotted, very thick] (t.south west) -- (pt.north east);
-		\draw[->, mydotted, very thick] (pt.south west) -- (u.east);
+		\draw[->, mydotted,  very thick] (x.south) -- (u.north west);
+		\draw[->, mydotted, very thick] (p.south) -- (pt.north west);
+		\draw[->, mydotted, very thick] (t.south) -- (pt.north east);
+		\draw[->, mydotted, very thick] (pt.south) -- (u.north east);
 		\draw[->, mydotted, very thick] (h1.south) -- (p.north west);
 		\draw[->, mydotted, very thick] (p0.south) -- (p.north);
 		\draw[->, mydotted, very thick] (b1.south) -- (p.north east); 
 		%\draw[->, very thick] (b2.south) -- (p.east); 
-		\draw[->, mydotted, very thick] (d.south east) -- (Q.north west); 
-		\draw[->, mydotted, very thick] (e.south east) -- (y.west); 
+		\draw[->, mydotted, very thick] (d.south) -- (Q.north west); 
+		\draw[->, mydotted, very thick] (e.east) -- (y.west); 
 		
-		\draw[->, very thick] (Q.south east) -- (x.north west); 
-		\draw[->, mydotted, very thick] (ht.south) -- (t.north west);
-		\draw[->, mydotted, very thick] (ct.south) -- (t.north);
-		\draw[->, mydotted, very thick] (at.south) -- (t.north east);
+		\draw[->, very thick] (Q.south) -- (x.north west); 
+		\draw[->, mydotted, very thick] (ht.south) -- (t.north);
+		\draw[->, mydotted, very thick] (ct.south) -- (t.north east);
+		\draw[->, mydotted, very thick] (at.south) -- (t.east);
 		%\node[align=center] at (0.25,3.95) (f3) {$\approx \bm{M A}_L$};
 	\end{tikzpicture} 
 \end{minipage}
