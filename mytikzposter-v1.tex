@@ -1,0 +1,234 @@
+\documentclass[25pt, a0paper, portrait, margin=0mm, innermargin=15mm,
+     blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter} %Default values for poster format options.
+
+\usepackage{amsthm,amsmath,amsfonts,amssymb}
+%\usepackage{pgfplots}
+
+ \tikzposterlatexaffectionproofoff %shows small comment on how the poster was made at bottom of poster
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+
+
+ % Commands
+ \newcommand{\bs}{\textbackslash}   % backslash
+ \newcommand{\cmd}[1]{{\bf \color{red}#1}}   % highlights command
+
+ % Title, Author, Institute
+ \title{Matrix splitting techniques for sampling a high-dimensional Gaussian}
+ \author{Richard A. Norton \& Colin Fox}
+ \institute{University of Otago}
+% \titlegraphic{\includegraphics[width=.15\textwidth]{unihorizcmyk-b.jpg}}
+
+\settitle{ \vbox{ \centering
+\@titlegraphic\\[\TP@titlegraphictotitledistance] 
+ \color{titlefgcolor} \centering {\bfseries \Huge \@title \par} \vspace*{1em} 
+{\bf\huge \@author \par} \vspace*{1em} 
+{\makebox[0.1em]{\begin{minipage}[b][1em]{39.4cm} \includegraphics[width=4cm]{qrcode.png}\end{minipage}}
+\LARGE SIAM Conference on Computational Science and Engineering 2015 
+\makebox[0.1em]{\begin{minipage}[b][1em]{40.2cm} \hfill \includegraphics[width=8cm]{unihorizcmyk-b.jpg}  \end{minipage}}
+}
+}}
+
+ % -- PREDEFINED THEMES ---------------------- %
+ % Choose LAYOUT:  Default, Basic, Rays, Simple, Envelope, Wave, Board, Autumn, Desert,
+\usetheme{Autumn}
+
+%\definecolorpalette{MyColorPalette}{
+%    \definecolor{colorOne}{HTML}{001099}
+%    \definecolor{colorTwo}{HTML}{A2C4D9}
+%    \definecolor{colorThree}{HTML}{FF8533} %{F88251}
+%}
+
+\definecolorpalette{MyColorPalette}{
+    \definecolor{colorOne}{RGB}{0,30,102}
+    \definecolor{colorTwo}{RGB}{162,196,217}
+    \definecolor{colorThree}{RGB}{255,133,41} 
+}
+
+
+\usecolorstyle[colorPalette=MyColorPalette]{Germany}
+% COLORPALETTE: Default, BlueGrayOrange, GreenGrayViolet, PurpleGrayBlue, BrownBlueOrange.
+% COLORSTYLE: Default, Australia, Britain, Sweden, Spain, Russia, Denmark, Germany
+
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\bbR}{\mathbb{R}}
+\newcommand{\tsfrac}[2]{{\textstyle \frac{#1}{#2}}}
+\newcommand{\twobyone}[2]{\begin{array}{c} #1 \\ #2 \end{array}}
+\newcommand{\twobytwo}[4]{\begin{array}{cc} #1 & #2 \\ #3 & #4 \end{array}}
+
+
+
+\begin{document}
+\maketitle
+
+\begin{columns}
+\column{.3}
+\block{Sampling a Gaussian \hfill \input{gaussian-same-nolegend.tikz}}{\vspace{-1ex}
+Sample $N(\mathcal{A}^{-1}\beta,\mathcal{A}^{-1})$ by defining
+a matrix splitting $\mathcal{A} = M - N$ and iterating
+$$
+	x^{k+1} = G x^k + g + \nu^k \qquad \nu^k \sim N(0,\Sigma)
+$$
+with $G = M^{-1}N$, $g = M^{-1} \beta$ and $\Sigma = M^{-1}(M^T+N) M^{-T}$.
+\\ \vspace{0.5ex} \\
+It will converge if $\rho(G)<1$.
+\begin{eqnarray*}
+	\mathrm{E}[x^k] - \mathcal{A}^{-1}\beta &=& G^k \left( \mathrm{E}[x^0] - \mathcal{A}^{-1}\beta \right) \\
+	\mathrm{Var}[x^k] - \mathcal{A}^{-1} &=& G^k \left( \mathrm{Var}[x^0] - \mathcal{A}^{-1} \right) (G^k)^T
+\end{eqnarray*}
+The error polynomial is
+$$
+	P_k(I-G) = G^k
+$$
+}
+
+\column{.3}
+\block{Solving a Linear System}{
+Solve $\mathcal{A} x = \beta$ by defining a matrix splitting $\mathcal{A} = M - N$ and iterating
+$$
+	x^{k+1} = G x^k + g
+$$
+with $G = M^{-1}N$ and $g = M^{-1}\beta$. \\
+\vspace{0.5ex} \\
+It will converge if $\rho(G) < 1$.  
+$$
+	x^k - \mathcal{A}^{-1}\beta = G^k (x^0 - \mathcal{A}^{-1}\beta)
+$$
+The error polynomial is 
+$$
+	P_k(I-G) = G^k
+$$
+}
+
+\note[targetoffsetx=1cm, targetoffsety=-1.5cm,rotate=2,angle=270,radius=8cm,width=.5\textwidth,innersep=.4cm]{
+{\large Samplers and solvers have the same error polynomial so good ideas for solvers are good ideas for samplers.  For example, polynomial acceleration, see C. Fox and A. Parker, Convergence in variance of Chebyshev accelerated Gibbs samplers, SISC 36(1):A124-A147.}
+}
+
+\column{.4}
+
+\block{Sampling a Gaussian}{
+\centering
+\input{gaussian-same.tikz}
+}
+
+
+\end{columns}
+
+\begin{columns}
+\column{0.6}
+\block{Sampling a non-Gaussian \hfill \input{nongaussian-nolegend.tikz}}{
+Sample non-Gaussian distributions using the Metropolis-Hastings algorithm with proposal
+$$
+	y = G x + g + \nu \qquad \nu \sim N(0,\Sigma).
+$$
+Without rejection, the proposal targets a local Gaussian approximation of the target distribution.  
+
+Analysis is challenging because of the Metropolis-Hastings accept/reject step.
+
+\coloredbox{
+We analyse the simpler case when the target is $N(A^{-1}b,A^{-1})$, but the proposal targets $N(\mathcal{A}^{-1}\beta,\mathcal{A}^{-1})$ with $\mathcal{A} \neq A$ and/or $\beta \neq b$.
+
+We assume that the splitting matrices $M$ and $N$ are functions of $A$.
+}
+%See R. A. Norton \& C. Fox, Efficiency and computability of MCMC with Langevin, Hamiltonian, and other matrix-splitting proposals, arxiv:1501.03150.
+}
+
+\block{Main Result \hfill \input{gaussian-nolegend.tikz}}{
+Suppose that the Markov chain is in equilibrium.  Let $\lambda_i^2$, $\tilde{\lambda}^2_i$ and $G_i$ be eigenvalues of $A$, $\mathcal{A}$ and $G$ respectively.  Define $\tilde{g}_i := 1-G_i$, $g_i := 1-G_i^2$, $r_i := \frac{\lambda_i^2-\tilde{\lambda}_i^2}{\lambda_i^2}$, $\tilde{r}_i := \frac{\lambda_i^2-\tilde{\lambda}_i^2}{\tilde{\lambda}_i^2}$, $\hat{r}_i := (A^{-1}b)_i - (\mathcal{A}^{-1}\beta)_i$ and 
+\begin{align*}
+	T_{0i} &:= \hat{r}_i^2 \lambda_i^2 ( \tsfrac{1}{2} r_i g_i - \tilde{g}_i) &
+	T_{1i} &:= \hat{r}_i \lambda_i ( r_i g_i - \tilde{g}_i) &
+	T_{2i} &:= \hat{r}_i \lambda_i g_i^{1/2} (1+\tilde{r}_i)^{1/2} ( 1 - r_i G_i) \\
+	T_{3i} &:= \tsfrac{1}{2} r_i g_i &
+	T_{4i} &:= -\tsfrac{1}{2} r_i g_i (1 + \tilde{r}_i) &
+	T_{5i} &:= -r_i G_i g_i^{1/2} (1+\tilde{r}_i)^{1/2}.
+\end{align*}
+If there exists a $\delta > 0$ such that for $j=1,2,3,4,5$
+$$
+	\lim_{d \rightarrow \infty} \frac{\sum_{i=1}^d |T_{ji}|^{2+\delta}}{ \left( \sum_{i=1}^d |T_{ji}|^2 \right)^{1+\delta/2}} = 0
+$$
+then 
+$$
+	Z:= \log \left( \frac{\pi(y)q(y,x)}{\pi(x)q(x,y)} \right) \xrightarrow{\mathcal{D}} N(\mu,\sigma^2) \qquad \mbox{as $d \rightarrow \infty$}
+$$
+where $\mu = \lim_{d\rightarrow \infty} \sum_{i=1}^d \mu_i$ and $\sigma^2 = \lim_{d\rightarrow \infty} \sum_{i=1}^d \sigma_i^2$ and $\mu_i = T_{0i} + T_{3i} + T_{4i}$ and $\sigma_i^2 = T_{1i}^2 + T_{2i}^2 + 2T_{3i}^2 + 2T_{4i}^2 + T_{5i}^2$.  Then the expected acceptance rate satisfies
+\coloredbox{
+$$	
+	\mathrm{E}[\alpha(x,y)] \rightarrow \Phi(\tsfrac{\mu}{\sigma}) + \mathrm{e}^{\mu + \sigma^2/2} \Phi(-\sigma - \tsfrac{\mu}{\sigma})
+	\qquad \mbox{as $d \rightarrow \infty$}
+$$}
+where $\Phi$ is the standard normal cumulative distribution function, and if $q_i$ is a normalized eigenvector of $A$ corresponding to $\lambda_i^2$, then the expected squared jump size satisfies
+\coloredbox{
+$$
+	\mathrm{E}[(q_i^T (x'-x))^2] \rightarrow U_1 U_2 + U_3 \qquad \mbox{as $d \rightarrow \infty$}
+$$}
+where $U_1 = \tilde{g}_i^2 \hat{r}_i^2 + \frac{\tilde{g}_i^2}{\lambda_i^2} + \frac{g}{\tilde{\lambda}_i^2}$, $U_2 = \Phi(\tsfrac{\mu^-}{\sigma^-}) + \mathrm{e}^{\mu^- + (\sigma^-)^2/2} \Phi(-\sigma^- - \tsfrac{\mu^-}{\sigma^-})$, and $|U_3| \leq ( \sigma_i^2 + \mu_i^2 )^{1/2}  
+	 \times $ $\left( \tilde{g}_i^4 \hat{r}_i^4 + 3 \frac{\tilde{g}_i^4}{\lambda_i^4} + 3 \frac{g_i^2}{\tilde{\lambda}_i^4} + 6 \frac{\tilde{g}_i^4 \hat{r}_i^2}{\lambda_i^2} + 6 \frac{\tilde{g}_i^2 g_i \hat{r}^2}{\tilde{\lambda}_i^2} + 6 \frac{\tilde{g}_i^2 g}{\lambda_i^2 \tilde{\lambda}_i^2} \right)^{1/2}$ and where $\mu^- := \sum_{j=1,j\neq i}^d \mu_j$ and $(\sigma^-)^2 := \sum_{j=1,j\neq i}^d \sigma_j^2$.
+}
+\note[targetoffsetx=0.17\textwidth,targetoffsety=9cm,innersep=.4cm,angle=-45,connection,radius=5cm]{These terms simplify when $A^{-1}b = \mathcal{A}^{-1}\beta$}
+
+\column{0.4}
+\block{We want to analyse}{
+\centering
+\input{nongaussian.tikz}
+}
+
+\block{We can analyse}{
+\centering
+\input{gaussian.tikz}
+}
+\end{columns}
+
+\begin{columns}
+\column{.5}
+\block{MALA is a special case \hfill \input{gaussian-nolegend.tikz}}{
+The Metropolis-adjusted Langevin algorithm (MALA) for target $N(A^{-1}b,A^{-1})$ has proposal
+$$
+	y = (I-\tsfrac{h}{2} A)x + \tsfrac{h}{2}b + h^{1/2} \nu \qquad \nu \sim N(0,I).
+$$
+The corresponding matrix splitting is
+\begin{align*}
+	M &= \tsfrac{2}{h}(I - \tsfrac{h}{4}A) & 
+	\mathcal{A} &= (I - \tsfrac{h}{4}A) A \\
+	N &= \tsfrac{2}{h}(I - \tsfrac{h}{4}A)(I-\tsfrac{h}{2}A) &
+	\beta &= (I - \tsfrac{h}{4}A) b.
+\end{align*}
+
+MALA satisfies $A^{-1}b = \mathcal{A}^{-1} \beta$.  We can extend existing theory for MALA to the case when the target is $N(A^{-1}b,A^{-1})$ with non-diagonal $A$.
+}
+
+\note[targetoffsetx=-8cm, targetoffsety=-12cm,radius=8cm,width=.48\textwidth,innersep=1cm]{
+R. A. Norton and C. Fox, Efficiency and computability of MCMC with Langevin, Hamiltonian, and other matrix-splitting proposals, arxiv:1501.03150.
+}
+
+
+\column{.5}
+\block{HMC is a special case\hfill \input{gaussian-nolegend.tikz}}{
+Hybrid Monte Carlo (HMC) for target $N(A^{-1}b,A^{-1})$ and Hamiltonian $H(q,p)= \frac{1}{2}p^T V p + \frac{1}{2} q^T A q - b^T q$ has proposal 
+$$
+y = (K^L)_{11} x + \left( SJ \left[ \twobyone{0}{\tsfrac{h}{2}b} \right] \right)_1 + (K^L)_{12} \xi \qquad \xi \sim N(0,V^{-1})
+$$
+where $(K^L)_{ij}$ is the $ij$ block of size $d\times d$ of $K^L$,  $S = (I-K)^{-1} (I-K^L)$ and $(\cdot)_1$ are the first $d$ entries of the vector $(\cdot)$, and
+$$
+	K = 
+	\left[ \!\! \twobytwo{I-\tsfrac{h^2}{2}VA}{hV}{-h A + \tsfrac{h^3}{4}AVA}{I-\tsfrac{h^2}{2}AV} \!\right]
+\quad \mbox{and} \quad
+	J = 	
+	\left[ \twobytwo{2I}{hV}{-\tsfrac{h}{2}A}{2I - \tsfrac{h^2}{2}AV} \right].
+$$
+The corresponding matrix splitting is
+\begin{align*}
+	M &= \Sigma^{-1} (I+(K^L)_{11}) &
+	\mathcal{A} &= \Sigma^{-1} (I - (K^L)_{11}^2) \\
+	N &= \Sigma^{-1} (I+(K^L)_{11}) (K^L)_{11} &
+	\beta &= \Sigma^{-1} (I+(K^L)_{11}) \left(( SJ \left[ \twobyone{0}{\tsfrac{h}{2}b} \right] \right)_1 
+\end{align*}	
+where $\Sigma = (K^L)_{12} V^{-1} (K^L)_{12}^T$.  HMC satisfies $\mathcal{A}^{-1} \beta \! = A^{-1} b$ and $G_i = \cos( L \theta_i )$ where $\theta_i = \cos^{-1} ( 1 - \tsfrac{h^2}{2} \lambda_i^2 )$.
+}
+\end{columns}
+
+\end{document}
+
+\endinput
+%%

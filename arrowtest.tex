@@ -1,0 +1,15 @@
+\documentclass[a2paper]{tikzposter}
+\usetikzlibrary{fit}
+\newcommand\NameBlock[1]{\node[fit=(blockbody)(blocktitle),inner sep=5pt] (#1) {};}
+\begin{document}
+\begin{columns}
+\column{0.5}
+\block{foo}{bar}
+\NameBlock{a}
+\column{0.5}
+\block{bar}{baz}
+\NameBlock{b}
+\end{columns}
+
+\draw [-stealth, line width=2mm] (a.south) to[bend right=40] (b.south);
+\end{document}

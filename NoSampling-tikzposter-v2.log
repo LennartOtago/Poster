@@ -1,0 +1,1269 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.24)  3 JUN 2025 15:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**NoSampling-tikzposter-v2.tex
+(./NoSampling-tikzposter-v2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./tikzposter.cls
+Document Class: tikzposter 2014/01/15 v2.0 LaTeX document class for Posters
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count185
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count186
+\calc@Bcount=\count187
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count188
+\calc@Cskip=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ae/ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count189
+\decimalpart=\count190
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count191
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen142
+\pgfutil@tempdimb=\dimen143
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box50
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen144
+\pgf@y=\dimen145
+\pgf@xa=\dimen146
+\pgf@ya=\dimen147
+\pgf@xb=\dimen148
+\pgf@yb=\dimen149
+\pgf@xc=\dimen150
+\pgf@yc=\dimen151
+\pgf@xd=\dimen152
+\pgf@yd=\dimen153
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count196
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count197
+\pgfsyssoftpath@bigbuffer@items=\count198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen154
+\pgfmath@count=\count199
+\pgfmath@box=\box51
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count266
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen155
+\pgf@picmaxx=\dimen156
+\pgf@picminy=\dimen157
+\pgf@picmaxy=\dimen158
+\pgf@pathminx=\dimen159
+\pgf@pathmaxx=\dimen160
+\pgf@pathminy=\dimen161
+\pgf@pathmaxy=\dimen162
+\pgf@xx=\dimen163
+\pgf@xy=\dimen164
+\pgf@yx=\dimen165
+\pgf@yy=\dimen166
+\pgf@zx=\dimen167
+\pgf@zy=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen169
+\pgf@path@lasty=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen171
+\pgf@shorten@start@additional=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count267
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen174
+\pgf@pt@y=\dimen175
+\pgf@pt@temp=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen178
+\pgf@sys@shading@range@num=\count268
+\pgf@shadingcount=\count269
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box55
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box56
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen179
+\pgf@nodesepend=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen181
+\pgffor@skip=\dimen182
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count270
+\pgfplotmarksize=\dimen183
+)
+\tikz@lastx=\dimen184
+\tikz@lasty=\dimen185
+\tikz@lastxsaved=\dimen186
+\tikz@lastysaved=\dimen187
+\tikz@lastmovetox=\dimen188
+\tikz@lastmovetoy=\dimen189
+\tikzleveldistance=\dimen190
+\tikzsiblingdistance=\dimen191
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count271
+\tikznumberofchildren=\count272
+\tikznumberofcurrentchild=\count273
+\tikz@fig@count=\count274
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count275
+\pgfmatrixcurrentcolumn=\count276
+\pgf@matrix@numberofcolumns=\count277
+)
+\tikz@expandcount=\count278
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks30
+\t@pgfplots@tokb=\toks31
+\t@pgfplots@tokc=\toks32
+\pgfplots@tmpa=\dimen192
+\c@pgfplots@coordindex=\count279
+\c@pgfplots@scanlineindex=\count280
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count282
+\t@pgfplotstable@a=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count283
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen193
+\pgfdecoratedremainingdistance=\dimen194
+\pgfdecoratedinputsegmentcompleteddistance=\dimen195
+\pgfdecoratedinputsegmentremainingdistance=\dimen196
+\pgf@decorate@distancetomove=\dimen197
+\pgf@decorate@repeatstate=\count284
+\pgfdecorationsegmentamplitude=\dimen198
+\pgfdecorationsegmentlength=\dimen199
+)
+\tikz@lib@dec@box=\box61
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
+ntourlua.code.tex)
+\pgfplots@numplots=\count285
+\pgfplots@xmin@reg=\dimen256
+\pgfplots@xmax@reg=\dimen257
+\pgfplots@ymin@reg=\dimen258
+\pgfplots@ymax@reg=\dimen259
+\pgfplots@zmin@reg=\dimen260
+\pgfplots@zmax@reg=\dimen261
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box62
+\pgfnodeparttwobox=\box63
+\pgfnodepartthreebox=\box64
+\pgfnodepartfourbox=\box65
+\pgfnodeparttwentybox=\box66
+\pgfnodepartnineteenbox=\box67
+\pgfnodeparteighteenbox=\box68
+\pgfnodepartseventeenbox=\box69
+\pgfnodepartsixteenbox=\box70
+\pgfnodepartfifteenbox=\box71
+\pgfnodepartfourteenbox=\box72
+\pgfnodepartthirteenbox=\box73
+\pgfnodeparttwelvebox=\box74
+\pgfnodepartelevenbox=\box75
+\pgfnodeparttenbox=\box76
+\pgfnodepartninebox=\box77
+\pgfnodeparteightbox=\box78
+\pgfnodepartsevenbox=\box79
+\pgfnodepartsixbox=\box80
+\pgfnodepartfivebox=\box81
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box82
+\pgf@layerboxsaved@background=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen262
+)
+\TP@innermargin=\dimen263
+\TP@visibletextwidth=\dimen264
+\TP@visibletextheight=\dimen265
+\TP@titlewidth=\dimen266
+\titlewidth=\dimen267
+\TP@titlelinewidth=\dimen268
+\titlelinewidth=\dimen269
+\titleinnersep=\dimen270
+\TP@titleinnersep=\dimen271
+\TP@titletotopverticalspace=\dimen272
+\titletotopverticalspace=\dimen273
+\TP@titletoblockverticalspace=\dimen274
+\TP@titleheight=\dimen275
+\titleheight=\dimen276
+\titlegraphicheight=\dimen277
+\titleposleft=\dimen278
+\titleposright=\dimen279
+\titlepostop=\dimen280
+\titleposbottom=\dimen281
+\TP@titlegraphictotitledistance=\dimen282
+\TP@colspace=\dimen283
+\TP@coltop=\dimen284
+\TP@colbottom=\dimen285
+\TP@colcenter=\dimen286
+\colwidth=\dimen287
+\TP@subcolspace=\dimen288
+\TP@subcoltop=\dimen289
+\TP@subcolbottom=\dimen290
+\TP@subcolcenter=\dimen291
+\subcolwidth=\dimen292
+\TP@blockverticalspace=\dimen293
+\TP@blockcenter=\dimen294
+\TP@blocktitleinnersep=\dimen295
+\blocktitleinnersep=\dimen296
+\TP@blockbodyinnersep=\dimen297
+\blockbodyinnersep=\dimen298
+\TP@blocktitlebox=\box84
+\TP@blockbodybox=\box85
+\TP@blocktitlewidth=\dimen299
+\TP@blockbodywidth=\dimen300
+\TP@blockbodyheight=\dimen301
+\TP@blocktitleheight=\dimen302
+\TP@blocktop=\dimen303
+\TP@blocktitleoffsetx=\dimen304
+\TP@blocktitleoffsety=\dimen305
+\TP@blockbodyoffsetx=\dimen306
+\TP@blockbodyoffsety=\dimen307
+\TP@blockbodyverticalshift=\dimen308
+\blocklinewidth=\dimen309
+\TP@innerblockcenter=\dimen310
+\TP@innerblocktitleinnersep=\dimen311
+\innerblocktitleinnersep=\dimen312
+\TP@innerblockbodyinnersep=\dimen313
+\innerblockbodyinnersep=\dimen314
+\TP@innerblocktitlebox=\box86
+\TP@innerblockbodybox=\box87
+\TP@innerblocktitlewidth=\dimen315
+\TP@innerblockbodywidth=\dimen316
+\TP@innerblockbodyheight=\dimen317
+\TP@innerblocktitleheight=\dimen318
+\TP@innerblocktitleoffsetx=\dimen319
+\TP@innerblocktitleoffsety=\dimen320
+\TP@innerblockbodyoffsetx=\dimen321
+\TP@innerblockbodyoffsety=\dimen322
+\TP@innerblockbodyverticalshift=\dimen323
+\innerblocklinewidth=\dimen324
+\TP@coloredbox=\box88
+\TP@coloredboxwidth=\dimen325
+\TP@coloredboxlinewidth=\dimen326
+\TP@coloredboxinnersep=\dimen327
+\TP@coloredboxheight=\dimen328
+\TP@noteinnersep=\dimen329
+\noteinnersep=\dimen330
+\TP@notetargetoffsetx=\dimen331
+\TP@notetargetoffsety=\dimen332
+\TP@noteradius=\dimen333
+\TP@notewidth=\dimen334
+\TP@noteheight=\dimen335
+\TP@notebox=\box89
+\notelinewidth=\dimen336
+ (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen337
+)
+\c@part=\count286
+\c@section=\count287
+\c@subsection=\count288
+\c@subsubsection=\count289
+\c@paragraph=\count290
+\c@subparagraph=\count291
+\c@figure=\count292
+\c@table=\count293
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\bibindent=\dimen338
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count294
+\Gm@cntv=\count295
+\c@Gm@tempcnt=\count296
+\Gm@bindingoffset=\dimen339
+\Gm@wd@mp=\dimen340
+\Gm@odd@mp=\dimen341
+\Gm@even@mp=\dimen342
+\Gm@layoutwidth=\dimen343
+\Gm@layoutheight=\dimen344
+\Gm@layouthoffset=\dimen345
+\Gm@layoutvoffset=\dimen346
+\Gm@dimlist=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/a0poster/a0size.sty
+File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
+\big@size=\dimen347
+)
+\pgf@layerbox@backgroundlayer=\box90
+\pgf@layerboxsaved@backgroundlayer=\box91
+\pgf@layerbox@notelayer=\box92
+\pgf@layerboxsaved@notelayer=\box93
+
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterColorpalettes.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterColorstyles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterBackgroundstyles.
+tex)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterTitlestyles.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterBlockstyles.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterInnerblockstyles.
+tex)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterNotestyles.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzposter/tikzposterLayoutthemes.tex)
+\c@figurecounter=\count297
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks35
+\thm@bodyfont=\toks36
+\thm@headfont=\toks37
+\thm@notefont=\toks38
+\thm@headpunct=\toks39
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks40
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen348
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen349
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box94
+\strutbox@=\box95
+\big@size=\dimen350
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip16
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks42
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks43
+\eqnshift@=\dimen351
+\alignsep@=\dimen352
+\tagshift@=\dimen353
+\tagwidth@=\dimen354
+\totwidth@=\dimen355
+\lineht@=\dimen356
+\@envbody=\toks44
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen357
+\pgfarrowlength=\dimen358
+\pgfarrowwidth=\dimen359
+\pgfarrowlinewidth=\dimen360
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+\c@lemma=\count310
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/spath3/tikzlibrarycalligraphy.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/spath3/spath3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count311
+\l__pdf_internal_box=\box96
+))
+Package: spath3 2021/02/21 v2.4 Functions for manipulating PGF soft paths
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+\g__spath_output_int=\count312
+\l__spath_tmpa_dim=\dimen361
+\l__spath_tmpb_dim=\dimen362
+\l__spath_tmpa_int=\count313
+\l__spath_tmpb_int=\count314
+\l__spath_move_x_dim=\dimen363
+\l__spath_move_y_dim=\dimen364
+\g__spath_anon_int=\count315
+)
+\l__cal_tmpa_int=\count316
+\l__cal_tmpb_int=\count317
+\g__cal_path_component_int=\count318
+\g__cal_label_int=\count319
+\l__cal_tmpa_dim=\dimen365
+\l__cal_tmpb_dim=\dimen366
+\l__cal_tmpc_dim=\dimen367
+\l__cal_tmpd_dim=\dimen368
+\l__cal_tmpe_dim=\dimen369
+\l__cal_tmpf_dim=\dimen370
+\l__cal_tmpg_dim=\dimen371
+\l__cal_tmph_dim=\dimen372
+\l__cal_taper_width_dim=\dimen373
+\l__cal_line_width_dim=\dimen374
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+LaTeX Font Info:    Trying to load font information for T1+aess on input line 1
+00.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aess.fd
+File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
+)
+(./NoSampling-tikzposter-v2.aux)
+\openout1 = `NoSampling-tikzposter-v2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count320
+\scratchdimen=\dimen375
+\scratchbox=\box97
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen376
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks47
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a0paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 2392.87677pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 3383.03267pt, 0.0pt)
+* \paperwidth=2392.87677pt
+* \paperheight=3383.03267pt
+* \textwidth=2392.87677pt
+* \textheight=3383.03267pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-109.26999pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <24.88> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 102.
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <61.92> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 102.
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <51.6> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <43> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 107.
+
+Overfull \hbox (3.89998pt too wide) in paragraph at lines 146--146
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <29.86> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 189.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <29.86> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 208.
+
+Overfull \hbox (3.89998pt too wide) in paragraph at lines 208--208
+[][] 
+ []
+
+<PosterMargTT.png, id=31, 462.528pt x 346.896pt>
+File: PosterMargTT.png Graphic file (type png)
+<use PosterMargTT.png>
+Package pdftex.def Info: PosterMargTT.png  used on input line 227.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+
+Overfull \hbox (1.28853pt too wide) in paragraph at lines 227--227
+ [] 
+ []
+
+
+Overfull \hbox (3.89998pt too wide) in paragraph at lines 227--227
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+
+ []
+
+
+Overfull \hbox (3.89998pt too wide) in paragraph at lines 242--242
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+aess on input line 
+258.
+LaTeX Font Info:    No file TS1aess.fd. on input line 258.
+
+LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 258.
+
+
+Overfull \hbox (3.89998pt too wide) in paragraph at lines 258--258
+[][] 
+ []
+
+
+Overfull \hbox (3.89998pt too wide) in paragraph at lines 280--280
+[][] 
+ []
+
+(./LIMBPoster.pdf_tex
+<LIMBPoster.pdf, id=33, page=1, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 1>
+Package pdftex.def Info: LIMBPoster.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=34, page=2, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 2>
+Package pdftex.def Info: LIMBPoster.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=35, page=3, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 3>
+Package pdftex.def Info: LIMBPoster.pdf , page3 used on input line 60.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=36, page=4, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 4>
+Package pdftex.def Info: LIMBPoster.pdf , page4 used on input line 62.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=37, page=5, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 5>
+Package pdftex.def Info: LIMBPoster.pdf , page5 used on input line 64.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=38, page=6, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 6>
+Package pdftex.def Info: LIMBPoster.pdf , page6 used on input line 66.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=39, page=7, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 7>
+Package pdftex.def Info: LIMBPoster.pdf , page7 used on input line 68.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=40, page=8, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 8>
+Package pdftex.def Info: LIMBPoster.pdf , page8 used on input line 70.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=41, page=9, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 9>
+Package pdftex.def Info: LIMBPoster.pdf , page9 used on input line 72.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+<LIMBPoster.pdf, id=42, page=10, 432.61626pt x 200.75pt>
+File: LIMBPoster.pdf Graphic file (type pdf)
+<use LIMBPoster.pdf, page 10>
+Package pdftex.def Info: LIMBPoster.pdf , page10 used on input line 74.
+(pdftex.def)             Requested size: 432.61624pt x 200.75868pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+
+ []
+
+
+Overfull \hbox (4.93512pt too wide) in paragraph at lines 347--347
+[][] 
+ []
+
+(./LIMB.pdf_tex
+<LIMB.pdf, id=43, page=1, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 1>
+Package pdftex.def Info: LIMB.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=44, page=2, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 2>
+Package pdftex.def Info: LIMB.pdf , page2 used on input line 60.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=45, page=3, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 3>
+Package pdftex.def Info: LIMB.pdf , page3 used on input line 65.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=46, page=4, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 4>
+Package pdftex.def Info: LIMB.pdf , page4 used on input line 67.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=47, page=5, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 5>
+Package pdftex.def Info: LIMB.pdf , page5 used on input line 69.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=48, page=6, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 6>
+Package pdftex.def Info: LIMB.pdf , page6 used on input line 71.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=49, page=7, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 7>
+Package pdftex.def Info: LIMB.pdf , page7 used on input line 73.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=50, page=8, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 8>
+Package pdftex.def Info: LIMB.pdf , page8 used on input line 75.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=51, page=9, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 9>
+Package pdftex.def Info: LIMB.pdf , page9 used on input line 77.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=52, page=10, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 10>
+Package pdftex.def Info: LIMB.pdf , page10 used on input line 79.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+<LIMB.pdf, id=53, page=11, 422.57875pt x 127.47626pt>
+File: LIMB.pdf Graphic file (type pdf)
+<use LIMB.pdf, page 11>
+Package pdftex.def Info: LIMB.pdf , page11 used on input line 81.
+(pdftex.def)             Requested size: 422.57874pt x 127.47981pt.
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./PosterMargTT.png> <./LIM
+BPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMBPoster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMBPoster.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./LIMB.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./LIMB.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] (./NoSampling-tikzposter-v2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 30394 strings out of 478287
+ 778678 string characters out of 5849289
+ 1286916 words of memory out of 5000000
+ 48020 multiletter control sequences out of 15000+600000
+ 510609 words of font info for 122 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 114i,21n,117p,738b,1286s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssi17.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
+Output written on NoSampling-tikzposter-v2.pdf (1 page, 275496 bytes).
+PDF statistics:
+ 236 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+
