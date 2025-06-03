@@ -43,11 +43,11 @@
 \usetheme{Autumn}
 
 \definecolorpalette{MyColorPalette}{
-	 \definecolor{colorOne}{HTML}{785EF0}
-    \definecolor{colorThree}{HTML}{D41159}
+	 %\definecolor{colorOne}{HTML}{785EF0}
+    \definecolor{colorOne}{HTML}{DA5C96}%{D41159}
     %\definecolor{colorThree}{HTML}{CC79A7}
-     \definecolor{colorTwo}{HTML}{1A85FF}
-    %\definecolor{colorThree}{HTML}{FF8533} %{F88251}
+     \definecolor{colorTwo}{HTML}{56B4E9}%{1E88E5}%{1A85FF}
+    \definecolor{colorThree}{HTML}{FF8533} %{F88251}
 }
 
 %\definecolorpalette{MyColorPalette}{
@@ -198,8 +198,7 @@ A cheap algebraic calculation is available when the full conditional for $x$
 \[ [x | \theta, y] = \frac{[ y | x]\,[ x | \theta ]}{[y|\theta]} \]
 has known form. Then the normalising constant $[y|\theta]$ has known $\theta$ dependence, and %hence one can evaluate the marginal posterior over $\theta$
 \[ [\theta | y] \propto [ y | \theta]\,[\theta]. \]
-\coloredbox{
-R.~A. Norton, J.~A. Christen, and C.~Fox.
+\coloredbox{R.~A. Norton, J.~A. Christen, and C.~Fox.
 \newblock Sampling hyperparameters in hierarchical models: improving on {Gibbs}
   for high-dimensional latent fields and large datasets.
 \newblock {\em Communications in Statistics - Simulation and Computation},
@@ -358,7 +357,20 @@ C.~Fox and R.~A. Norton.
 
 \column{.55}
 \block{Posterior Expectation by TT  and Affine Representations}{Picture of posterior inference, or timings, or some output summaries -- perhaps a box below with some snappy summary or conclusions
-		\input{LIMB.pdf_tex}
+	\begin{minipage}{0.2\linewidth}
+			\begin{flushleft} 
+		\begin{tikzpicture}
+			\foreach \X [count=\Z]in {0,1,2,3,4}
+			{\node[opacity=0.8] at (-\Z*1.25,0,\Z*1.75) {\includegraphics[]{PHdPTPost\X}};}
+		\end{tikzpicture}
+			\end{flushleft} 
+\end{minipage}
+\begin{minipage}{0.2\linewidth}
+\begin{itemize}
+	\item 
+\end{itemize}
+\end{minipage}
+
 }
 \end{columns}
 
