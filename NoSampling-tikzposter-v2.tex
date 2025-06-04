@@ -356,21 +356,31 @@ C.~Fox and R.~A. Norton.
 
 
 \column{.55}
-\block{Posterior Expectation by TT  and Affine Representations}{Picture of posterior inference, or timings, or some output summaries -- perhaps a box below with some snappy summary or conclusions
-	\begin{minipage}{0.2\linewidth}
+\block{Posterior Expectation by TT  and Affine Representations}{
+	%Picture of posterior inference, or timings, or some output summaries -- perhaps a box below with some snappy summary or conclusions \\
+	\begin{minipage}{0.1\linewidth}
 			\begin{flushleft} 
 		\begin{tikzpicture}
 			\foreach \X [count=\Z]in {0,1,2,3,4}
 			{\node[opacity=0.8] at (-\Z*1.25,0,\Z*1.75) {\includegraphics[]{PHdPTPost\X}};}
 		\end{tikzpicture}
 			\end{flushleft} 
-\end{minipage}
+\end{minipage} \hspace{15cm}
+\begin{minipage}{0.1\linewidth}
+			\begin{flushleft} 
+	\begin{tikzpicture}
+		\foreach \X [count=\Z]in {PTPostSampl,FirstTestRes}
+		{\node[opacity=0.8] at (-\Z*1.25,0,\Z*1.75) {\includegraphics[]{\X}};}
+	\end{tikzpicture}
+\end{flushleft} 
+\end{minipage}\hspace{10cm}
 \begin{minipage}{0.2\linewidth}
-\begin{itemize}
-	\item 
-\end{itemize}
-\end{minipage}
-
+	\begin{itemize}
+		\item output sumarray
+		\item time
+		\item other stuff
+		\end{itemize}
+\end{minipage} 
 }
 \end{columns}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.15)  3 JUN 2025 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.15)  4 JUN 2025 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1164,31 +1164,51 @@ Overfull \hbox (4.93512pt too wide) in paragraph at lines 355--355
 <PHdPTPost0.png, id=44, 315.579pt x 315.579pt>
 File: PHdPTPost0.png Graphic file (type png)
 <use PHdPTPost0.png>
-Package pdftex.def Info: PHdPTPost0.png  used on input line 374.
+Package pdftex.def Info: PHdPTPost0.png  used on input line 384.
 (pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
 <PHdPTPost1.png, id=45, 315.579pt x 315.579pt>
 File: PHdPTPost1.png Graphic file (type png)
 <use PHdPTPost1.png>
-Package pdftex.def Info: PHdPTPost1.png  used on input line 374.
+Package pdftex.def Info: PHdPTPost1.png  used on input line 384.
 (pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
 <PHdPTPost2.png, id=46, 315.579pt x 315.579pt>
 File: PHdPTPost2.png Graphic file (type png)
 <use PHdPTPost2.png>
-Package pdftex.def Info: PHdPTPost2.png  used on input line 374.
+Package pdftex.def Info: PHdPTPost2.png  used on input line 384.
 (pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
 <PHdPTPost3.png, id=47, 315.579pt x 315.579pt>
 File: PHdPTPost3.png Graphic file (type png)
 <use PHdPTPost3.png>
-Package pdftex.def Info: PHdPTPost3.png  used on input line 374.
+Package pdftex.def Info: PHdPTPost3.png  used on input line 384.
 (pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
 <PHdPTPost4.png, id=48, 315.579pt x 315.579pt>
 File: PHdPTPost4.png Graphic file (type png)
 <use PHdPTPost4.png>
-Package pdftex.def Info: PHdPTPost4.png  used on input line 374.
+Package pdftex.def Info: PHdPTPost4.png  used on input line 384.
 (pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
 
-Overfull \hbox (314.62845pt too wide) in paragraph at lines 374--374
+Overfull \hbox (433.92065pt too wide) in paragraph at lines 384--384
 []  
+ []
+
+<PTPostSampl.png, id=49, 315.579pt x 315.579pt>
+File: PTPostSampl.png Graphic file (type png)
+<use PTPostSampl.png>
+Package pdftex.def Info: PTPostSampl.png  used on input line 384.
+(pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
+<FirstTestRes.png, id=50, 315.579pt x 315.579pt>
+File: FirstTestRes.png Graphic file (type png)
+<use FirstTestRes.png>
+Package pdftex.def Info: FirstTestRes.png  used on input line 384.
+(pdftex.def)             Requested size: 315.57822pt x 315.57822pt.
+
+Overfull \hbox (269.7136pt too wide) in paragraph at lines 384--384
+[]  
+ []
+
+
+Overfull \hbox (14.23347pt too wide) in paragraph at lines 384--384
+[]$[]$   $[]$  $[]$ 
  []
 
 [1
@@ -1236,19 +1256,20 @@ sion: multiple pdfs with page group included in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./LIMBPoster.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 > <./PHdPTPost0.png> <./PHdPTPost1.png> <./PHdPTPost2.png> <./PHdPTPost3.png> <
-./PHdPTPost4.png>] (./NoSampling-tikzposter-v2.aux)
+./PHdPTPost4.png> <./PTPostSampl.png> <./FirstTestRes.png>]
+(./NoSampling-tikzposter-v2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30726 strings out of 476025
- 788265 string characters out of 5790016
- 1939388 words of memory out of 5000000
- 50606 multiletter control sequences out of 15000+600000
+ 30746 strings out of 476025
+ 788677 string characters out of 5790016
+ 1941388 words of memory out of 5000000
+ 50626 multiletter control sequences out of 15000+600000
  553637 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,19n,117p,738b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,19n,117p,738b,1384s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -1258,10 +1279,10 @@ b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on NoSampling-tikzposter-v2.pdf (1 page, 1264451 bytes).
+Output written on NoSampling-tikzposter-v2.pdf (1 page, 1648529 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 175 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
